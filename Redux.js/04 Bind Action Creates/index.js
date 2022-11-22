@@ -1,6 +1,7 @@
 // Redux Store
 const redux = require("redux");
 const createStore = redux.createStore;
+const bindActionCreater = redux.bindActionCreators;
 
 // Action
 // Cakes in Stock
@@ -56,11 +57,10 @@ const unsubscribe = store.subscribe(()=>
     console.log("Update Store", store.getState()
 ));
 
-// Allow state to be updated via dispatch(Action)
-store.dispatch(OrderCake());
-store.dispatch(OrderCake());
-store.dispatch(OrderCake());
-
-store.dispatch(RestockCake(10));
+// bind Action creaters
+const actions = bindActionCreater({OrderCake, RestockCake}, store.dispatch);
+actions.OrderCake();
+actions.OrderCake();
+actions.OrderCake();
+actions.RestockCake(5);
 unsubscribe();
-console.log("I have no. of cakes in stock", store.getState());
