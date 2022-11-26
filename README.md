@@ -8,7 +8,7 @@ React:
 https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
 
 Redux:
-https://www.youtube.com/playlist?list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3
+https://www.youtube.com/playlist?list=PLolI8AY2AS9auCrhYDHrdv9jFVtk-Cwy6
 
 
 Node, Express, MongoDB:

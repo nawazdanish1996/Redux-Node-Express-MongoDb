@@ -2,10 +2,14 @@
 const redux = require("redux");
 const createStore = redux.createStore;
 const bindActionCreater = redux.bindActionCreators;
+const combineReducers = redux.combineReducers;
 
 // Action
 // Cakes in Stock
 const Cake_Order = "Cake_Order";
+const Cake_restocked = "Cake_restocked";
+const IceCream_Ordered = "IceCream_Ordered";
+const IceCream_Restocked = "IceCream_Restocked";
 
 const OrderCake = ()=>{
     return{
@@ -15,8 +19,6 @@ const OrderCake = ()=>{
 }
 
 // Cakes restocked
-const Cake_restocked = "Cake_restocked";
-
 const RestockCake = (qty = 1)=>{
     return{
         type: Cake_restocked,
@@ -25,8 +27,6 @@ const RestockCake = (qty = 1)=>{
 }
 
 // add new items
-const IceCream_Ordered = "IceCream_Ordered";
-const IceCream_Restocked = "IceCream_Restocked";
 const OrderIceCream = (qty = 1)=>{
     return{
         type: IceCream_Ordered,
@@ -82,8 +82,15 @@ const reducer = (state = initialState, action)=>{
     }
 }
 
+
+// combine Reducer
+const rootReducer = combineReducers({
+    cake: cakeReducer,
+    iceCream: iceCreamReducer
+})
+
 // Redux Store
-const store = createStore(reducer);
+const store = createStore(rootReducer);
 // Allow access to state via getState().
 console.log("Initial State", store.getState());
 const unsubscribe = store.subscribe(()=>
