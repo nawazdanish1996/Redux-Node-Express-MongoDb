@@ -8,6 +8,10 @@ React:
 https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
 
 Redux:
+https://www.youtube.com/watch?v=1oU_YGhT7ck
+
+or,
+
 https://www.youtube.com/playlist?list=PLolI8AY2AS9auCrhYDHrdv9jFVtk-Cwy6
 
 
