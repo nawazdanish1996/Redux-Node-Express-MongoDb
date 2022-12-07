@@ -13,8 +13,14 @@ or,
 https://www.youtube.com/playlist?list=PLUVqY59GNZQMYJgEO3KWXkGcd3JSEfUst
 
 
-Node, Express, MongoDB:
-https://www.youtube.com/playlist?list=PLbGui_ZYuhijy1SpwtIS9IwL6OJdbr4kE
+Node:
+https://www.youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8
+
+Express:
+https://www.youtube.com/playlist?list=PLwGdqUZWnOp3Vqww2cL5KbDkShj4NMRzk
+
+MongoDB:
+https://www.youtube.com/playlist?list=PLwGdqUZWnOp1P9xSsJg7g3AY0CUjs-WOa
 
 Crud App Node,Express,MongoDB & EJS Templating Engine:
 https://www.youtube.com/playlist?list=PL6u82dzQtlfvJoAWdyf5mUxPQRnNKCMGt
