@@ -10,11 +10,8 @@ or,
 https://www.youtube.com/playlist?list=PLUVqY59GNZQMYJgEO3KWXkGcd3JSEfUst
 
 
-Node (1-86):
+Node (1-24)
+Express(25-39)
+MongoDB(40-69)
+MERN Projects(70-86):
 https://www.youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8
-
-Express(1-17):
-https://www.youtube.com/playlist?list=PLwGdqUZWnOp3Vqww2cL5KbDkShj4NMRzk
-
-MongoDB(1-47):
-https://www.youtube.com/playlist?list=PLwGdqUZWnOp1P9xSsJg7g3AY0CUjs-WOa
