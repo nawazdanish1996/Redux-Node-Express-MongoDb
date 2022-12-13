@@ -1,0 +1,9 @@
+Challenge 1
+
+1. Create a folder named it Nawaz
+2. Create a file in it named bio.txt and data into it.
+3. Add more data ito the file at the the existig data.
+4. Read the data without getting the buffer data at first.
+    file encoding
+5. Rename the file name to mybio.txt
+6. now delete both the file and the folder
