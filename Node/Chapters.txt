@@ -1,7 +1,13 @@
 Node 01-24
+Node Doc: https://nodejs.org/dist/latest-v18.x/docs/api/
 
 01. First Code in Node
 05. writeFileSync, readFile, appendFile, readFileSync, renameSync
 06. CRUD (Create, Read, Update, delete) in Node
 07. Asynchronous File System Core Modules
-08. 
+08. Syncronous vs Asynchronous
+09. Asynchronous CRUD Operations using File System Modules
+10. OS Module to get Operting System information
+11. Path Module
+12. CREATE and EXPORT Our Own Modules
+13. 
