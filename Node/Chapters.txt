@@ -10,4 +10,14 @@ Node Doc: https://nodejs.org/dist/latest-v18.x/docs/api/
 10. OS Module to get Operting System information
 11. Path Module
 12. CREATE and EXPORT Our Own Modules
-13. 
+13. NPM || import NPM module in Node.js
+14. Nodemon  in Node.js
+15. Module wraper function in Node.js
+16. Creating our own web server in Node.js
+17. Node.js Routing || Handled HTTP requests in Node
+18. JSON in Node.js
+19. Create simple API in Node.js
+20. Events module in Node.js
+21. Streams and Buffere in Node.js
+22. Stream Pipes in Node
+23. Create Complete dynamic weather APP
