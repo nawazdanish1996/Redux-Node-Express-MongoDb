@@ -1,5 +1,5 @@
-# React-Redux-Node-Express-MongoDb
-Learning React, Node, Express &amp; MongoDb
+# Redux-Node-Express-MongoDb
+Learning Redux, Node, Express &amp; MongoDb
 
 
 Playlists
