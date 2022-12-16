@@ -10,7 +10,7 @@ Node Doc: https://nodejs.org/dist/latest-v18.x/docs/api/
 10. OS Module to get Operting System information
 11. Path Module
 12. CREATE and EXPORT Our Own Modules
-13. NPM || import NPM module in Node.js
+13. Email validator || 
 14. Nodemon  in Node.js
 15. Module wraper function in Node.js
 16. Creating our own web server in Node.js

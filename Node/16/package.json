@@ -1,5 +1,5 @@
 {
-  "name": "13",
+  "name": "16",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "Nawaz Danish",
-  "license": "ISC",
-  "dependencies": {
-    "validator": "^13.7.0"
-  }
+  "license": "ISC"
 }
