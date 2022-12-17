@@ -19,6 +19,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 18. JSON in Node.js
 19. Create simple API in Node.js
 20. Events module in Node.js
-21. Streams and Buffere in Node.js
+21. Streams and Buffer in Node.js
 22. Stream Pipes in Node
 23. Create Complete dynamic weather APP
