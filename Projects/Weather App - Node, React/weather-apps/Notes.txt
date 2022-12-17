@@ -1,0 +1,9 @@
+1. server
+Packages installed:
+nodemon,
+
+2. weather-app
+Packages installed:
+MUI,
+MUI icons,
+axios,

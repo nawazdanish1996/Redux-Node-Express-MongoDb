@@ -1,0 +1,14 @@
+npm init --y
+npm i express nodemon
+
+Delete File: del index.js
+create File: touch index.js / type nul > index.js
+create Folder : mkdir mi
+delete folder : rmdir mi
+check directory: dir
+
+using Express we create API.
+get     : read
+post    : create
+put     : update
+delete  : delete
