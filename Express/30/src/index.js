@@ -7,9 +7,19 @@ const port = 4500 || process.env.port;
 
 // path
 const staticPath = path.join(__dirname, '../public');
-// middleware
+
+// to set the view engine
+app.set('view engine', 'hbs');
+
+// template engine root
+app.get('/', (req, resp)=>{
+    resp.render("index", {
+        channelName: 'YouTube'
+    });
+})
+
 // built in middleware
-app.use(express.static(staticPath));
+// app.use(express.static(staticPath));
 
 // pages
 app.get('/', (req, res)=>{

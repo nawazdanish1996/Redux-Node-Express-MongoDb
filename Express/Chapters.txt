@@ -11,10 +11,13 @@ Express.js 25-39 : https://www.youtube.com/watch?v=CgoD3HX1lWY&list=PLwGdqUZWnOp
 29. Responsive 🎧 Website using HTML CSS & Express JS
 };
 
+{ in same folder
 30. Template engines (pub, hbs, ejs) in Node and Express
-31. 
-32. 
-33.
+31. Customizing the Views Directory in Express JS | Dynamic Data Folder in Express
+};
+
+32. Using Partial in Express
+33. Add 404 error page in Dynamic website using express.js
 34.
 35.
 37.

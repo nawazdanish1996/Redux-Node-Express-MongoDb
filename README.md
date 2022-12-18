@@ -26,9 +26,16 @@ Using template engines with Express
 https://expressjs.com/en/guide/using-template-engines.html
 
 npm dependencies used while learning (Node, Express, and MongoDB):
+
 npm init --y
+
 Nodemon: npm i nodemon
+
 Express: npm i express
+
 PUG: npm i pug
-Handlebars: npm i handlebars
+
 Embedded JavaScript templates: npm i ejs
+
+hbs: npm install hbs
+https://www.npmjs.com/package/hbs

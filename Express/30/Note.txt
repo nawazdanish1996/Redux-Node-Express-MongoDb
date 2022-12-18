@@ -7,8 +7,10 @@ https://expressjs.com/en/guide/using-template-engines.html
 PUG: npm i pug
 https://pugjs.org/api/getting-started.html
 
-Handlebars: npm i handlebars
-https://handlebarsjs.com/guide/#what-is-handlebars
-
 Embedded JavaScript templates: npm i ejs
 https://www.npmjs.com/package/ejs
+
+hbs: npm install hbs
+https://www.npmjs.com/package/hbs
+
+views, the directory where the template files are located
