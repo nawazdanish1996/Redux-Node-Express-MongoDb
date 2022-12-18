@@ -6,17 +6,30 @@ const path = require('path');
 app.get('/', (req, resp)=>{
     resp.sendFile(path.join(__dirname, './home.html'));
 });
+
 app.get('/about', (req, resp)=>{
     resp.status(200).send("<h1>About</h1>");
 });
+
 app.get('/contact', (req, resp)=>{
     resp.status(200).send("<h1>contact</h1>");
 });
+
 app.get('/temp', (req, resp)=>{
-    resp.send({
-        id: 1,
-        name: "Nawaz Danish"
-    });
+    resp.send([
+        {
+            id: 1,
+            name: "Nawaz Danish"
+        },
+        {
+            id: 2,
+            name: "Raja"
+        },
+        {
+            id: 3,
+            name: "Rana"
+        }
+        ]);
 });
 
 app.listen(port, ()=>{

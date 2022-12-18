@@ -1,0 +1,47 @@
+body{
+    background-color: #34495e;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.navbar .logo{
+    padding: 10px;
+    flex: 50%;
+}
+
+.navbar .nav{
+    padding: 10px;
+    flex: 50%;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid red;
+}
+
+@media (max-width: 770px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .nav ul{
+        display: block;
+    }
+}

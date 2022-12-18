@@ -1,0 +1,14 @@
+Template engines (pub, hbs, ejs) in Node and Express
+
+Using template engines with Express
+https://expressjs.com/en/guide/using-template-engines.html
+
+
+PUG: npm i pug
+https://pugjs.org/api/getting-started.html
+
+Handlebars: npm i handlebars
+https://handlebarsjs.com/guide/#what-is-handlebars
+
+Embedded JavaScript templates: npm i ejs
+https://www.npmjs.com/package/ejs

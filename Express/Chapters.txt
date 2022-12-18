@@ -5,4 +5,18 @@ Express.js 25-39 : https://www.youtube.com/watch?v=CgoD3HX1lWY&list=PLwGdqUZWnOp
     use port 4500 unless there exists a preconfigured port
     var port = process.env.PORT || 4500;
 27. How to send HTML & JSON data as response using express.js
-28. 
+
+{ both in same file.
+28. Serve HTML CSS & JS Files in Express || Middleware in JS
+29. Responsive 🎧 Website using HTML CSS & Express JS
+};
+
+30. Template engines (pub, hbs, ejs) in Node and Express
+31. 
+32. 
+33.
+34.
+35.
+37.
+38.
+39.

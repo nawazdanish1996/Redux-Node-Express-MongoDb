@@ -17,5 +17,18 @@ Express(25-39)
 MongoDB(40-69)
 
 MERN Projects(70-86):
-
 https://www.youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8
+
+Important websites:
+HTTP response status codes
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+Using template engines with Express
+https://expressjs.com/en/guide/using-template-engines.html
+
+npm dependencies used while learning (Node, Express, and MongoDB):
+npm init --y
+Nodemon: npm i nodemon
+Express: npm i express
+PUG: npm i pug
+Handlebars: npm i handlebars
+Embedded JavaScript templates: npm i ejs
