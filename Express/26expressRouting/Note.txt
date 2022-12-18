@@ -1,2 +1,4 @@
 Routing in Express.js
 
+use port 4500 unless there exists a preconfigured port
+var port = process.env.PORT || 4500;
