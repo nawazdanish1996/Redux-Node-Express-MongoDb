@@ -14,3 +14,5 @@ hbs: npm install hbs
 https://www.npmjs.com/package/hbs
 
 views, the directory where the template files are located
+
+nodemon src/index.js -e
