@@ -21,7 +21,7 @@ app.use(express.static(staticPath));
 // template engine root
 app.get('/', (req, resp)=>{
     resp.render("index", {
-        channelName: 'Nawaz Danish'
+        UserName: 'Nawaz Danish'
     });
 })
 app.get('/about', (req, resp)=>{
@@ -34,7 +34,9 @@ app.get('/contact', (req, resp)=>{
     resp.render('contact');
 })
 app.get('*', (req, resp)=>{
-    resp.render('page404');
+    resp.render('page404', {
+        errorcomemnt: "Oops page couldn't be found"
+    });
 })
 
 // built in middleware

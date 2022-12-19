@@ -1,9 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: #34495e;
-    text-align: center;
-    color: white;
-    width: 100%;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .navbar{
@@ -16,6 +18,10 @@ body{
 .navbar .logo{
     padding: 10px;
     flex: 50%;
+}
+
+.navbar .logo a{
+    display: flex;
 }
 
 .navbar .nav{
@@ -33,8 +39,16 @@ body{
 
 .nav ul li a{
     text-decoration: none;
+    color: green;
+}
+
+footer{
+    margin-top: auto;
+    background-color: black;
     color: white;
-    border: 1px solid red;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 770px) {

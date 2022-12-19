@@ -6,7 +6,7 @@ Express.js 25-39 : https://www.youtube.com/watch?v=CgoD3HX1lWY&list=PLwGdqUZWnOp
     var port = process.env.PORT || 4500;
 27. How to send HTML & JSON data as response using express.js
 
-{ both in same file.
+{ in same file.
 28. Serve HTML CSS & JS Files in Express || Middleware in JS
 29. Responsive 🎧 Website using HTML CSS & Express JS
 };
@@ -14,12 +14,12 @@ Express.js 25-39 : https://www.youtube.com/watch?v=CgoD3HX1lWY&list=PLwGdqUZWnOp
 { in same folder
 30. Template engines (pub, hbs, ejs) in Node and Express
 31. Customizing the Views Directory in Express JS | Dynamic Data Folder in Express
-32. Using Partial in Express
+32. Using Partial in Express (We can use components as React.js)
+33. Add 404 error page in Dynamic website using express.js
+34. Adding Responsive styles to complete dynamic website using CSS in Express
+35. Express.js + API Practice set 1.
 };
 
-33. Add 404 error page in Dynamic website using express.js
-34.
-35.
-37.
-38.
-39.
+37. Complete Git SSH Setup || Add MERN Project in Gihub using SSH key.
+38. 3 proper ways to share codes of Node Projects (MERN, MEAN) to Gihub, Friends, and Clients
+39. Host website for free on HEROKU || Deploy Node Express App on HEROKU
