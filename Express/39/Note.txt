@@ -1,0 +1,32 @@
+Host MERN project in HEROKU for free.
+
+https://www.thapatechnical.com/2020/10/how-to-host-node-project-in-heroku-for.html
+
+https://dashboard.heroku.com/apps
+
+command in git:
+
+heroku -v
+// ssh key avl.
+ls -al ~/.ssh
+ssh-keygen
+
+connect horuku to github:
+
+heroku login
+
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/53eda43b-76fa-4dc8-b1a3-62323368e0a5?requestor=SFMyNTY.g2gDbQAAAA00Ny4xMS4yMDQuMjI0bgYAgOYBOYUBYgABUYA.zDS_5LOwSvMYcG5mCvdGiLBT-3ENsuM21cdXg9o43Ec
+Logging in... done
+Logged in as contact.to.nd@gmail.com
+
+
+heroku keys:add
+
+ »   Warning: heroku update available from 7.53.0 to 7.67.1.
+Found an SSH public key at C:\Users\Nawaz Danish\.ssh\id_rsa.pub
+? Would you like to upload it to Heroku? Yes
+Uploading C:\Users\Nawaz Danish\.ssh\id_rsa.pub SSH key... done
+
+git init
+git status

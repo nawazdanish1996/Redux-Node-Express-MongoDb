@@ -1,0 +1,8 @@
+MongoDB 40-69 :
+
+best sources to learn:
+https://www.educba.com/data-science/data-science-tutorials/mongodb-tutorial/
+
+
+01. Introduction to MongoDB
+02. 
