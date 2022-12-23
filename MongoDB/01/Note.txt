@@ -1,4 +1,14 @@
 Introduction to MongoDB
 
+install:
+MongoDB
+MongoDB powershell
+
 It is a non-relational, document-oriented database management
 system and works on document based database.
+
+"C:\Program Files\MongoDB\Server\6.0\bin\mongod.exe" --version
+"C:\Program Files\MongoDB\Server\6.0\bin\mongos.exe" --version
+"C:\Program Files\MongoDB\Server\6.0\bin\mongod.exe"
+"C:\Program Files\MongoDB\Server\6.0\bin\mongo.exe"
+

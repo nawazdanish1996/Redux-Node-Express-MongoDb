@@ -3,6 +3,15 @@ MongoDB 40-69 :
 best sources to learn:
 https://www.educba.com/data-science/data-science-tutorials/mongodb-tutorial/
 
-
+{ in same folder
 01. Introduction to MongoDB
-02. 
+02. Complete Installation of MongoDB
+}
+
+{ in same folder
+03. Create Database, Collections, and Documents in MongoDB
+04. MongoDB CRUD Operation 👉 Create or Insert Documents into Collections
+}
+
+05. MongoDB CRUD Operation 👉 Read or Queries the Documents into Collections
+06. 

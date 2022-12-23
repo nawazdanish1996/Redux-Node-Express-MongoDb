@@ -1,0 +1,26 @@
+commands                info
+
+cls                         : Clear
+show dbs                    : show database
+use NawazDatabase           : create database
+dbs                         : active database
+db.NawazTable.insertOne({name: "ReactJS", type: "FrontEnd", videos: 80, active: true})          : create Table
+show collections            : table collection
+db.NawazTable.find()        : Find Records
+db.NawazTable.insertOne     : one document
+db.NawazTable.insertMany([{},{},{}]) : multiple document
+example: db.NawazTable.insertMany([{name: "js", type:"frontend", videos: 50, active: true },{name: "Nawaz Danish", type: "nam", videos: 786, active: true}])
+
+
+
+Creating Table:
+
+db.NawazTable.insertOne({name: "ReactJS", type: "FrontEnd", videos: 80, active: true})
+show dbs
+dbs
+show collections
+
+
+// CRUD operation
+Create Read Update Delete
+
