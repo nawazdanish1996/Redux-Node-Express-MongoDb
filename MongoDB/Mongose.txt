@@ -6,3 +6,12 @@ for MongoDB and Node.js. It manages relationships
 between data, provides schema validation, and is used to
 translate between objects in code and the representation 
 of those objects in MongoDB.
+
+install Mongoose: npm i mongoose
+                  npm init --y
+
+// importing
+// Using Node.js `require()`
+const mongoose = require('mongoose');
+// Using ES6 imports
+import mongoose from 'mongoose';

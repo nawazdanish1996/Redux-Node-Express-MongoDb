@@ -3,24 +3,32 @@ MongoDB 40-69 :
 best sources to learn:
 https://www.educba.com/data-science/data-science-tutorials/mongodb-tutorial/
 
+// MongoDB
 { in same folder
-01. Introduction to MongoDB
-02. Complete Installation of MongoDB
+01.1 Introduction to MongoDB
+02.2 Complete Installation of MongoDB
 }
 
 { in same folder
-03. Create Database, Collections, and Documents in MongoDB
-04. MongoDB CRUD Operation 👉 Create or Insert Documents into Collections
+03.3 Create Database, Collections, and Documents in MongoDB
+04.4 MongoDB CRUD Operation 👉 Create or Insert Documents into Collections
 }
 
-05. MongoDB CRUD Operation 👉 Read or Queries the Documents into Collections
+05.5 MongoDB CRUD Operation 👉 Read or Queries the Documents into Collections
 
 { in same folder
-06. MongoDB CRUD Operation 👉 How to Update the Documents into Collections 
-07. MongoDB CRUD 👉 Delete the Documents into Collections | DeleteMany vs Remove
+06.6 MongoDB CRUD Operation 👉 How to Update the Documents into Collections 
+07.7 MongoDB CRUD 👉 Delete the Documents into Collections | DeleteMany vs Remove
 }
 
-08. Install MongoDB GUI compass
-09. MongoDB CRUD Operations in 1MINUTE Only
-10. Introduction to Mongoose | Connect NodeJS, Express to MongoDB using Mongoose
-11. 
+08.8 Install MongoDB GUI compass
+09.9 MongoDB CRUD Operations in 1MINUTE Only
+
+// Mongoose
+{ in same folder
+10.1 Introduction to Mongoose | Connect NodeJS, Express to MongoDB using Mongoose
+11.2 Create and Insert the Document using Express in MongoDB using Mongoose
+}
+
+12.3 Create and Insert the Document using Express in MongoDB using Mongoose
+13.4 
