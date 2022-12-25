@@ -1,0 +1,22 @@
+06. MongoDB CRUD Operation 👉 How to Update the Documents into Collections 
+
+CRUD Operation
+CRUD stands for Create Read Update Delete
+
+// update
+UpdateOne() => db.collection_Name.updateOne({filter}, {update})
+UpdateMany() => db.collection_Name.updateMany(<filter>, <update>)
+
+1. update the javascript type value to "Full Stack"
+db.NawazTable.updateOne({name: 'js'}, {$set: {type: "Full Stack"}})
+db.NawazTable.updateMany({type:'nam'}, {$set: {active: false}})
+
+
+// delete
+deleteMany() => db.collection_Name.deleteMany(deletion_critteria)
+
+1. delete the field with type matched Full Stack
+db.NawazTable.deleteMany({type: 'nam'})
+db.NawazTable.remove({type: 'Database'})
+// delete all table
+db.NawazTable.remove({})

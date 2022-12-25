@@ -1,3 +1,22 @@
 // MongoDB CRUD operation
 Create Read Update Delete
 
+db.collection.find(query, projection)
+
+
+// find specific element
+db.NawazTable.find({name: "js"})
+
+// only name should be show
+1 means only name
+0 means exept name
+db.NawazTable.find({name: "js"}, {name:1})
+
+// show name without id
+db.NawazTable.find({name: "js"}, {_id: 0, name:1})
+
+// first document
+db.NawazTable.find({active: true}).limit(1)
+db.NawazTable.findOne({active: true})
+// second document
+db.NawazTable.find({active: true}).limit(1).skip(1)

@@ -1,0 +1,54 @@
+commands                info
+
+cls                         : Clear
+show dbs                    : show database
+use NawazDatabase           : create database
+db                         : active database
+db.NawazTable.insertOne({name: "ReactJS", type: "FrontEnd", videos: 80, active: true})          : create Table
+show collections            : table collection
+db.NawazTable.find()        : Find Records
+db.NawazTable.insertOne     : one document
+db.NawazTable.insertOne({name: "ReactJS", type: "FrontEnd", videos: 80, active: true})
+db.NawazTable.insertMany([{},{},{}]) : multiple document
+example: db.NawazTable.insertMany([{name: "js", type:"frontend", videos: 50, active: true },{name: "Nawaz Danish", type: "nam", videos: 786, active: true}])
+
+// find specific element
+db.NawazTable.find({name: "js"})
+
+// only name should be show
+1 means only name
+0 means exept name
+db.NawazTable.find({name: "js"}, {name:1})
+
+// show name without id
+db.NawazTable.find({name: "js"}, {_id: 0, name:1})
+
+// first document
+db.NawazTable.find({active: true}).limit(1)
+db.NawazTable.findOne({active: true})
+// second document
+db.NawazTable.find({active: true}).limit(1).skip(1)
+
+
+Creating Table:
+
+db.NawazTable.insertOne({name: "ReactJS", type: "FrontEnd", videos: 80, active: true})
+
+// CRUD Operation
+CRUD stands for Create Read Update Delete
+
+//update
+UpdateOne() => db.collection_Name.updateOne({filter}, {update})
+UpdateMany() => db.collection_Name.updateMany(<filter>, <update>)
+
+1. update the javascript type value to "Full Stack"
+db.NawazTable.updateOne({name: 'js'}, {$set: {type: "Full Stack"}})
+db.NawazTable.updateMany({type:'nam'}, {$set: {active: false}})
+
+// delete
+deleteMany() => db.collection_Name.deleteMany(deletion_critteria)
+1. delete the field with type matched Full Stack
+db.NawazTable.deleteMany({type: 'nam'})
+db.NawazTable.remove({type: 'Database'})
+// delete all table
+db.NawazTable.remove({})
