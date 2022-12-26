@@ -25,10 +25,39 @@ https://www.educba.com/data-science/data-science-tutorials/mongodb-tutorial/
 09.9 MongoDB CRUD Operations in 1MINUTE Only
 
 // Mongoose
-{ in same folder
+{ in same folder 10
 10.1 Introduction to Mongoose | Connect NodeJS, Express to MongoDB using Mongoose
 11.2 Create and Insert the Document using Express in MongoDB using Mongoose
 }
 
-12.3 Create and Insert the Document using Express in MongoDB using Mongoose
-13.4 
+{ in the same folder 12
+12.3 Mongoose Schema and Models Explained | Create Collections using Mongoose
+13.4 How to Insert Multiple Documents using One Line in Mongoose
+14.5 How to Read or Querying the Documents using Mongoose in Express App
+
+15.5 MongoDB Comparison Query Operators using Mongoose and Node(Express JS)
+doc: https://www.mongodb.com/docs/manual/reference/operator/query-comparison/
+16.6 MongoDB Logical Query Operators using Mongoose and Node(Express JS)
+doc: https://www.mongodb.com/docs/manual/reference/operator/query-logical/
+}
+
+17.7
+18.8
+19.9
+20.10
+21.11
+22.12
+23.13
+
+// Introduction to Postman
+24.1
+
+// intro to Rest API
+25.1
+26.2
+27.3
+28.4
+29.5
+30.6
+31.7
+32.8
