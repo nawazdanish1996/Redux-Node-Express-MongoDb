@@ -35,22 +35,33 @@ https://www.educba.com/data-science/data-science-tutorials/mongodb-tutorial/
 13.4 How to Insert Multiple Documents using One Line in Mongoose
 14.5 How to Read or Querying the Documents using Mongoose in Express App
 
-15.5 MongoDB Comparison Query Operators using Mongoose and Node(Express JS)
+15.5 Comparison Query Operators using Mongoose and Node(Express JS)
 doc: https://www.mongodb.com/docs/manual/reference/operator/query-comparison/
-16.6 MongoDB Logical Query Operators using Mongoose and Node(Express JS)
+16.6 Logical Query Operators using Mongoose and Node(Express JS)
 doc: https://www.mongodb.com/docs/manual/reference/operator/query-logical/
+17.7 Sorting and Count Query Methods using Mongoose and Node(Express JS)
+18.8 Update the Documents using Mongoose in Express App
+19.9 Delete the Documents using Mongoose
+
+// validators
+20.10 Mongoose Built-In Validation using MongoDB in (NodeJS) Express Ap
+doc: https://mongoosejs.com/docs/schematypes.html
+21.11 Create Your Own Custom Validation using MongoDB in (NodeJS) Express App
+doc : https://mongoosejs.com/docs/validation.html
+22.12 Using NPM Validator Package for Validation using MongoDB in (NodeJS)
+doc: https://www.npmjs.com/package/validator
 }
 
-17.7
-18.8
-19.9
-20.10
-21.11
-22.12
-23.13
 
 // Introduction to Postman
-24.1
+{ in same folder 13
+23.13 REST API Postman tutorial in one video
+}
+
+// intro to RestFul API
+{
+24.1 
+}
 
 // intro to Rest API
 25.1

@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const {
     Schema
 } = mongoose;
+const validator = require('validator');
 
 // connection creation or creation a new database
 mongoose.connect("mongodb://127.0.0.1:27017/Nawaz")
@@ -14,11 +15,46 @@ mongoose.connect("mongodb://127.0.0.1:27017/Nawaz")
 const playlistSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true
+        // validator
+        required: true,
+        // same playlist will not create
+        unique: true,
+        lowercase: true,
+        // no spaces
+        trim: true,
+        minlength: [2, "minimum 2 letter needed"],
+        maxlength: [5, 'maximum 5 letter needed']
     },
-    ctype: String,
-    videos: Number,
+    // ctype: String,
+    // enum :  Array, creates a validator that checks if the value is in the given array
+    ctype : {
+        type: String,
+        required : true,
+        lowercase : true,
+        enum : ["frontend", "backend", "Database", "Full Stack Developer"]
+    },
+    // custom validation
+    videos: {
+        type : Number,
+        required: true,
+        validate(value){
+            if(value < 0){
+                throw new Error("videos count should not be negative")
+            }
+        }
+    },
     auther: String,
+    // email validation
+    email : {
+        type : String,
+        required: true,
+        unique : true,
+        validate(value){
+            if(!validator.isEmail(value)){
+                throw new Error("Invalid Email");
+            }
+        }
+    },
     active: Boolean,
     date: {
         type: Date,
@@ -37,49 +73,18 @@ const Playlist = new mongoose.model("Playlist", playlistSchema);
 const createDocument = async () => {
     try {
         // ** insert multipe document
-        // const reactPlaylist = new Playlist({
-        //     name: "Node",
-        //     ctype: 'Backend',
-        //     class: 1,
-        //     author: 'Nawaz Danish',
-        //     active: true
-        // });
-        // const cssPlaylist = new Playlist({
-        //     name: "CSS",
-        //     ctype: 'Frontend',
-        //     class: 99,
-        //     author: 'Nawaz Danish',
-        //     active: true
-        // });
-        // const bootstrapPlaylist = new Playlist({
-        //     name: "Bootstrap",
-        //     ctype: 'Frontend',
-        //     class: 46,
-        //     author: 'Nawaz Danish',
-        //     active: true
-        // });
-        // const expressPlaylist = new Playlist({
-        //     name: "Express",
-        //     ctype: 'Backend',
-        //     class: 69,
-        //     author: 'Nawaz Danish',
-        //     active: true
-        // });
+        const reactPlaylist = new Playlist({
+            name: "agg",
+            ctype: 'frontend',
+            videos: 1,
+            author: 'Nawaz Danish',
+            email: "contact.to.nd@gmail.com",
+            active: true,
+        });
 
         // insert only one document at a time
-        // const result = await reactPlaylist.save();
-        // console.log(result);
-
-        // insert multipe document
-        // const result = await Playlist.insertMany([
-        //     cssPlaylist,
-        //     bootstrapPlaylist,
-        //     expressPlaylist,
-        //     reactPlaylist
-        // ]);
-        // console.log(result);
-
-        // ** read document
+        const result = await reactPlaylist.save();
+        console.log(result);
 
     } catch (err) {
         console.log(err);
@@ -87,51 +92,16 @@ const createDocument = async () => {
         console.log("Code Executed");
     };
 };
+createDocument();
 
 // read document
-// const getDocument = async () =>{
-//     try{
-//         // const result = await Playlist.find()
-//         const result = await Playlist.find({ctype: "Frontend"}).select({name: 1}).limit(1).skip(1);
-//         console.log(result);
-//     }catch(err){
-//         console.log(err);
-//     }
-// };
-
-
-// read document & MongoDB comparison query operator
-// doc: https://www.mongodb.com/docs/manual/reference/operator/query-comparison/
-// const getDocument = async () =>{
-//     try{
-//         // const result = await Playlist.find()
-//         const result = await Playlist
-//         .find({videos: {$gt : 65}})
-//         .select({name: 1});
-//         console.log(result);
-//     }catch(err){
-//         console.log(err);
-//     }
-// };
-
-// read document & MongoDB Logical Query Operators
-// doc: https://www.mongodb.com/docs/manual/reference/operator/query-logical/
-// syntex
-// { $or: [ { <expression1> }, { <expression2> }, ... , { <expressionN> } ] }
-
 const getDocument = async () =>{
     try{
-        const result = await Playlist
-        // .find({$or : [{ctype: "Frontend"}, {auther : "Nawaz Danish"}]})
-        .find({$and : [{ctype: "Backend"}, {auther : "Nawaz Danish"}]})
-        .select({name: 1});
-        console.log(result);
+        // const result = await Playlist.find()
+        const result = await Playlist.find();
+        // console.log(result);
     }catch(err){
         console.log(err);
     }
 };
-
 getDocument();
-
-// function defined
-// createDocument();

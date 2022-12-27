@@ -11,6 +11,21 @@ db.NawazTable.insertOne     : one document
 db.NawazTable.insertOne({name: "ReactJS", type: "FrontEnd", videos: 80, active: true})
 db.NawazTable.insertMany([{},{},{}]) : multiple document
 example: db.NawazTable.insertMany([{name: "js", type:"frontend", videos: 50, active: true },{name: "Nawaz Danish", type: "nam", videos: 786, active: true}])
+{
+// delete Database
+command: show dbs
+	Nawaz    72.00 KiB
+	admin    40.00 KiB
+	config  108.00 KiB
+	local    72.00 KiB
+use Nawaz
+	switched to db Nawaz
+db.dropDatabase()
+	{ "dropped" : "tutorialkart", "ok" : 1 }
+show dbs
+}
+// delete collection
+db.collection_name.drop()
 
 // find specific element
 db.NawazTable.find({name: "js"})
