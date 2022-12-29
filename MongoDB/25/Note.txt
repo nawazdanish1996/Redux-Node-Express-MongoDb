@@ -1,0 +1,6 @@
+npm init -y
+
+// npm packages/dependencies
+npm i express
+npm i mongoose
+npm i validator

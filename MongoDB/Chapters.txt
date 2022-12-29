@@ -52,19 +52,24 @@ doc : https://mongoosejs.com/docs/validation.html
 doc: https://www.npmjs.com/package/validator
 }
 
-
 // Introduction to Postman
-{ in same folder 13
 23.13 REST API Postman tutorial in one video
-}
 
 // intro to RestFul API
-{
-24.1 
-}
+API: Application Programming Interface
+24.1 What is REST API in Hindi? Introduction To RESTFul API
+RestAPI : Representational State Transfer Application Programming Interface
+The most commonly used HTTP request methods are GET, POST, PUT/PATCH, and DELETE
+//HTTP request methods
+create  Post        /api/createUser
+Read    Get         /api/readUsers
+Update  Put/Patch   /api/updateUser
+Delete  Delete      /api/deleteUsers
 
-// intro to Rest API
-25.1
+// restFul API from scratch
+{ in a same folder 25
+25.1 Create Your Own RESTFul API in Hindi || Handling POST Request in REST API using NodeJS & MongoDB
+}
 26.2
 27.3
 28.4
