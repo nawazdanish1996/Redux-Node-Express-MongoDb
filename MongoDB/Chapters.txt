@@ -69,11 +69,11 @@ Delete  Delete      /api/deleteUsers
 // restFul API from scratch
 { in a same folder 25
 25.1 Create Your Own RESTFul API in Hindi || Handling POST Request in REST API using NodeJS & MongoDB
+26.2 Build Your Own REST API using Async-Await with Nodejs Express and MongoDB
+27.3 Handling Get Request in REST API using NodeJS & MongoDB
+28.4 Handling DELETE Request in REST API using NodeJS & MongoDB
+29.5 Handling PUT❓ PATCH Request in REST API using NodeJS & MongoDB
 }
-26.2
-27.3
-28.4
-29.5
+
+
 30.6
-31.7
-32.8

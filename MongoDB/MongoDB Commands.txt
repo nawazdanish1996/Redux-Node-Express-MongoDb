@@ -67,3 +67,5 @@ db.NawazTable.deleteMany({type: 'nam'})
 db.NawazTable.remove({type: 'Database'})
 // delete all table
 db.NawazTable.remove({})
+db.NawazTable.findByIdAndDelete()
+db.collection.findOneAndUpdate( filter, update, options )

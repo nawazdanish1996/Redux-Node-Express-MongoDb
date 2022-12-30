@@ -47,22 +47,3 @@ const studentSchema = new mongoose.Schema({
 const Student = new mongoose.model("Student", studentSchema);
 
 module.exports = Student;
-
-// create document or insert document
-// const createDocument = async () =>{
-//     try{
-//         const reactPlaylist = new Student({
-//             name: "MongoDB",
-//             email: "nawazdanish1996@gmail.com",
-//             phone: "8918572592",
-//             address: "Lodhan Chowk, Goalpokher"
-//         });
-//         const result =await reactPlaylist.save();
-//         console.log(result);
-//     }catch(err){
-//         console.log(err);
-//     }finally{
-//         console.log("Code Executed");
-//     }
-// };
-// createDocument();
