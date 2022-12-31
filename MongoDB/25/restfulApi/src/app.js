@@ -9,6 +9,7 @@ require("./db/conn");
 // Collection
 const Student = require("./models/students");
 
+// middleware
 app.use(express.json());
 
 // router

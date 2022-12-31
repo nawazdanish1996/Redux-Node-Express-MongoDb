@@ -15,3 +15,6 @@ install Mongoose: npm i mongoose
 const mongoose = require('mongoose');
 // Using ES6 imports
 import mongoose from 'mongoose';
+
+
+Mongoose is a JavaScript object-oriented programming library that creates a connection between MongoDB and the Node.js JavaScript runtime environment

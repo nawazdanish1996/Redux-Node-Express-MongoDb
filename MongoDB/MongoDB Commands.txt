@@ -1,5 +1,5 @@
 commands                info
-
+// DOC: https://mongoosejs.com/docs/queries.html
 cls                         : Clear
 show dbs                    : show database
 use NawazDatabase           : create database
